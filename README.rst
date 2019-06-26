@@ -29,32 +29,32 @@ Prerequisites
 Main features and highlights
 ============================
 
-- :doc:`Dynamic serializer for Documents <basic_usage_examples>`.
-- :doc:`Search filter backend <advanced_usage_examples>`.
-- :doc:`Ordering filter backend <advanced_usage_examples>`.
-- :doc:`Filtering filter backend <advanced_usage_examples>` (big variety of
+- :ref:`Dynamic serializer for Documents <basic_usage_examples>`.
+- :ref:`Search filter backend <advanced_usage_examples>`.
+- :ref:`Ordering filter backend <advanced_usage_examples>`.
+- :ref:`Filtering filter backend <advanced_usage_examples>` (big variety of
   native- and functional- query lookups, such as ``gt``, ``gte``, ``lt``,
   ``lte``, ``endswith``, ``contains``, ``wildcard``, ``exists``, ``exclude``,
   ``isnull``, ``range``, ``in``, ``prefix`` (same as ``startswith``), ``term``
   and ``terms`` is implemented.
-- :doc:`Geo-spatial filtering filter backend <advanced_usage_examples>` (the
+- :ref:`Geo-spatial filtering filter backend <advanced_usage_examples>` (the
   following filters implemented: ``geo_distance``, ``geo_polygon`` and
   ``geo_bounding_box``).
-- :doc:`Geo-spatial ordering filter backend <advanced_usage_examples>` (the
+- :ref:`Geo-spatial ordering filter backend <advanced_usage_examples>` (the
   following filters implemented: ``geo_distance``).
-- :doc:`Faceted search filter backend <advanced_usage_examples>`.
-- :doc:`Post-filter filter backend <advanced_usage_examples>`.
-- :doc:`Nested filtering filter backend <nested_fields_usage_examples>`.
-- :doc:`Highlight backend <advanced_usage_examples>`.
-- :doc:`Suggester filter backend <advanced_usage_examples>`.
-- :doc:`Functional suggester filter backend <advanced_usage_examples>`.
-- :doc:`Pagination (Page number and limit/offset pagination) <advanced_usage_examples>`.
-- :doc:`Ids filter backend <advanced_usage_examples>`.
-- :doc:`Multi match search filter backend <search_backends>`.
-- :doc:`Simple search query search filter backend <search_backends>`.
-- :doc:`More-like-this support (detail action) <more_like_this>`.
-- :doc:`Global aggregations support <global_aggregations>`.
-- :doc:`Source filter backend <source_backend>`.
+- :ref:`Faceted search filter backend <advanced_usage_examples>`.
+- :ref:`Post-filter filter backend <advanced_usage_examples>`.
+- :ref:`Nested filtering filter backend <nested_fields_usage_examples>`.
+- :ref:`Highlight backend <advanced_usage_examples>`.
+- :ref:`Suggester filter backend <advanced_usage_examples>`.
+- :ref:`Functional suggester filter backend <advanced_usage_examples>`.
+- :ref:`Pagination (Page number and limit/offset pagination) <advanced_usage_examples>`.
+- :ref:`Ids filter backend <advanced_usage_examples>`.
+- :ref:`Multi match search filter backend <search_backends>`.
+- :ref:`Simple search query search filter backend <search_backends>`.
+- :ref:`More-like-this support (detail action) <more_like_this>`.
+- :ref:`Global aggregations support <global_aggregations>`.
+- :ref:`Source filter backend <source_backend>`.
 
 Demo
 ====
@@ -115,7 +115,7 @@ Installation
 Quick start
 ===========
 Perhaps the easiest way to get acquainted with ``django-elasticsearch-dsl-drf``
-is to read the :doc:`quick start tutorial <quick_start>`.
+is to read the :ref:`quick start tutorial <quick_start>`.
 
 See it as a guide of diving into integration of Elasticsearch with Django
 with very low knowledge entry level.
